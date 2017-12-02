@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NLPTwitterController">
+   <children>
+      <Button fx:id="backToWelcome" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#goToWelcomePage" text="&lt;-Back To Welcome Page" />
+      <TextArea fx:id="keyword1TextArea" editable="false" layoutX="20.0" layoutY="54.0" prefHeight="425.0" prefWidth="342.0" promptText="Input keyword at the bottom and click search           If you are first time to use, please click the button &quot;Click Me!! How To Use&quot; to gain some knowledge on how to use. Thank you." />
+      <TextArea fx:id="keyword2TextArea" editable="false" layoutX="476.0" layoutY="54.0" prefHeight="425.0" prefWidth="342.0" promptText="Input keyword at the bottom and click search           If you are first time to use, please click the button &quot;Click Me!! How To Use&quot; to gain some knowledge on how to use. Thank you." />
+      <Label layoutX="28.0" layoutY="532.0" text="Words" textFill="#b9cd21" />
+      <Label layoutX="477.0" layoutY="531.0" text="Words" textFill="#b9cd21" />
+      <TextField fx:id="keyword1TextField" layoutX="81.0" layoutY="527.0" promptText="input words" />
+      <TextField fx:id="keyword2TextField" layoutX="531.0" layoutY="527.0" promptText="input words" />
+      <Button fx:id="searchWord1" layoutX="248.0" layoutY="527.0" mnemonicParsing="false" onAction="#searchKeyword1" prefHeight="27.0" prefWidth="114.0" text="Search" />
+      <Button fx:id="searchWord2" layoutX="698.0" layoutY="526.0" mnemonicParsing="false" onAction="#searchKeyword2" prefHeight="27.0" prefWidth="114.0" text="Search" />
+      <Button fx:id="goToHowToUse" layoutX="206.0" layoutY="14.0" mnemonicParsing="false" onAction="#goToHowToUse" text="Click Me!! How To Use" />
+      <ProgressBar fx:id="pb1" layoutX="20.0" layoutY="479.0" prefHeight="20.0" prefWidth="342.0" progress="0.0" />
+      <ProgressBar fx:id="pb2" layoutX="477.0" layoutY="479.0" prefHeight="20.0" prefWidth="342.0" progress="0.0" />
+      <Label fx:id="statusLabel1" layoutX="20.0" layoutY="505.0" prefHeight="17.0" prefWidth="342.0" textFill="#b9cd21" />
+      <Label fx:id="statusLabel2" layoutX="483.0" layoutY="505.0" prefHeight="17.0" prefWidth="330.0" textFill="#b9cd21" />
+      <Button fx:id="showChart1" layoutX="248.0" layoutY="562.0" mnemonicParsing="false" onAction="#showBarChart1" prefHeight="27.0" prefWidth="114.0" text="Show Chart" />
+      <Button fx:id="showChart2" layoutX="698.0" layoutY="562.0" mnemonicParsing="false" onAction="#showBarChart2" prefHeight="27.0" prefWidth="114.0" text="Show Chart" />
+      <Button fx:id="compareChrt" alignment="CENTER" contentDisplay="CENTER" layoutX="367.0" layoutY="267.0" mnemonicParsing="false" onAction="#showCompareChart" prefHeight="43.0" prefWidth="104.0" text="Compare" />
+   </children>
+</AnchorPane>

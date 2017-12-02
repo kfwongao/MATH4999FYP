@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.howToUseController">
+   <children>
+      <TextArea editable="false" layoutX="13.0" layoutY="34.0" prefHeight="323.0" prefWidth="475.0" text="This is a program for analysis tweets with specific words. &#10;After you input the word(s), the program will do a searching &#10;on Twitter and then analyse those tweets to determine whether &#10;those are positive or negative.  There are BarCharts for you to &#10;get the visualized results.&#10;&#10;The barChart tell you the distribution of the scores.&#10;&#10;Total number of records used, number of positive records, &#10;number negative records, number of neutral records and a &#10;ratio of percetage of positive records to percetage of negative &#10;records will be given to you in the result. &#10;&#10;You can input at most two phrases everytime. &#10;&#10;Branch of log will be print out while running the program, you &#10;can simply ignore them and be patient to wait for the result. &#10;&#10;(You can find all the tweets used and the score of them in the &#10;text file named as \&quot;[keyword]_Result.txt\&quot; &#10;in format \&quot;[Tweet] : [Score]\&quot;. Tweet with score 2 is treated &#10;as neutral, larger than 2 is treated as positive and less than &#10;2 is treated as negative.)" />
+      <Label layoutX="62.0" layoutY="14.0" text="------------------------Introduction-----------------------" />
+      <Button fx:id="close" layoutX="371.0" layoutY="359.0" mnemonicParsing="false" onAction="#close" prefHeight="27.0" prefWidth="108.0" text="Close" />
+   </children>
+</AnchorPane>

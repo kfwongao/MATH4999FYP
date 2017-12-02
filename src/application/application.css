@@ -1,0 +1,32 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+	-fx-background-color: #666666;
+	-fx-font-family: "Comic Sans MS";
+	 -fx-font-size: 15;
+}
+#toTwitter {
+	 -fx-pref-width:250;
+	 -fx-pref-height:40;
+	 -fx-padding: 8 15 15 15;
+	 -fx-font-family: "Comic Sans MS";
+	 -fx-font-size: 15;
+	 
+}
+
+#exit {
+	 -fx-pref-width:250;
+	 -fx-pref-height:40;
+	 -fx-padding: 8 15 15 15;
+	  -fx-font-family: "Comic Sans MS";
+	  -fx-font-size: 15;
+}
+
+#labelProject {
+	-fx-font-family: "Comic Sans MS";
+	 -fx-font-size: 12;
+}
+
+#labelWelcome {
+	-fx-font-family: "Comic Sans MS";
+	 -fx-font-size: 15;
+}
