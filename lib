@@ -1,0 +1,14 @@
+In this lib, you must download the missing four .jar file by yourself in order to compile and run this app.
+It is because one of the .jar is too large, i cannot upload here so you need download them from the following links
+
+https://stanfordnlp.github.io/CoreNLP/ 
+
+and 
+
+https://developer.twitter.com/en.html
+
+the four files are ejml-0.23.jar, stanford-corenlp-3.8.0-models.jar, stanford-corenlp-3.8.0.jar and twitter4j-core-4.0.4.jar
+
+You should also configure the jar path in eclipse
+
+It is simple.
