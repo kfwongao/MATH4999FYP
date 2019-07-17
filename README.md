@@ -9,7 +9,7 @@
 </ul>
 
 ## Research Paper of this project
-[Research on Natural Language Processing Algorithms on Review](./report.pdf)
+[Research on Natural Language Processing Algorithms on Review Data](./report.pdf)
 
 
 ## Screen shot of the app
