@@ -1,9 +1,14 @@
 # MATH4999FYP
-Twitter Tweets Analysis</br>
-NLP + statistical approach</br>
-Graphical User Application</br>
-Written in Java SE8</br>
-external jars: twitter-api and Stanford CoreNLP tools</br>
-</br></br></br>
-The following is the screen shot of the app</br></br>
+## Twitter Tweets Analysis
+***
+NLP + statistical approach
+Graphical User Application
+Written in Java SE8
+external jars: twitter-api and Stanford CoreNLP tools
+
+## Research Paper of this project
+[Research on Natural Language Processing Algorithms on Review](./report.pdf)
+
+
+## Screen shot of the app
 <img src="figure_3_2.png" alt="Screen Shot" height="600" width="800" />
