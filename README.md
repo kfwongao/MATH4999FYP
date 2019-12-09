@@ -10,6 +10,9 @@
 
 ## Research Paper of this project
 [Research on Natural Language Processing Algorithms on Review Data](./report.pdf)
+## WordCloud for giving you an general idea of the Research Paper
+<img src="MATH4999_Project_wordCloud.PNG" alt="Word Cloud" height="300" width="600" />
+
 
 
 ## Screen shot of the app
