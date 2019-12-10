@@ -17,3 +17,6 @@
 
 ## Screen shot of the app
 <img src="figure_3_2.png" alt="Screen Shot" height="600" width="800" />
+
+## Download the app to have a trial (Both MacOS and Win10)
+<a href="https://drive.google.com/drive/folders/1hwhCPKTMisP0KW9z-EfICnxSyR9huZDC?usp=sharing" target="_blank">App Download Link</a>
